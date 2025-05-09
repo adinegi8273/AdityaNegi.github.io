@@ -1,0 +1,81 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.head {
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: #1a1a1a;
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main:hover {
+    border: 2px solid white;
+}
+
+#para {
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-box {
+    width: 45%;
+    height: 200px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed white;
+    text-align: center;
+}
+
+.video-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.video-button {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.8rem 1.8rem;
+    background-color: #ef0101;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.video-button:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.video-button i {
+    font-size: 1.1rem;
+}

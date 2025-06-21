@@ -317,44 +317,184 @@ body {
         width: 100%;
     }
 }
+/* ========== Improved Responsive Additions for Mobile ========== */
 
 @media (max-width: 768px) {
+    /* General layout adjustments */
+    body {
+        padding: 0 2vw;
+    }
     .navbar, .foot-panel1 {
         justify-content: center;
     }
     .navbar a, .foot-panel1 a {
-        margin-right: 20px;
+        margin-right: 12px;
+        font-size: 15px;
     }
     .AboutMe {
         flex-direction: column;
         align-items: center;
+        gap: 18px;
     }
     .myImage {
-        margin-top: 30px;
+        margin-top: 24px;
+        height: 120px;
+        width: 120px;
     }
     .MyIntro p {
-        width: 80%;
+        width: 95vw;
         text-align: center;
+        font-size: 16px;
     }
     .MyIntro button {
         margin: 0 auto;
         display: block;
+        font-size: 16px;
+        padding: 8px 24px;
     }
-    .skill, .middleskill {
-        width: 80%;
-        margin-right: 0;
+    .role {
+        font-size: 30px;
     }
     .hero-background {
-        width: 80%;
-        height: 600px;
+        width: 100vw;
+        height: 300px;
+        position: static;
+        margin-bottom: 18px;
     }
-    .experience {
-        position: relative;
-        width: 90%;
-        right: auto;
-        margin: 0 auto;
-        margin-top: 40px;
+    .hero-tag {
+        font-size: 24px;
+        margin-bottom: 30px;
     }
-    .projects-content, .markproject {
+    /* Skills section */
+    .skills {
         flex-direction: column;
-        align
+        align-items: center;
+        gap: 16px;
+    }
+    .skill, .middleskill {
+        width: 90vw;
+        height: 160px;
+        margin-right: 0;
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    /* Remove background for "Problem Solver" and similar blocks */
+    .middleskill {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+    /* Projects section */
+    .projects {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 0 4vw;
+    }
+    .projects-head {
+        margin-left: 0;
+        width: 100%;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .projects button {
+        font-size: 13px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 6px 18px;
+    }
+    /* Projects content */
+    .markproject, .projects-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    .box, .markproject .box {
+        width: 90vw;
+        height: 180px;
+        margin: 16px 0;
+    }
+    .box-image {
+        width: 90%;
+        height: 60%;
+    }
+    .project-info, .project-info-head {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    /* Experience section */
+    .experience {
+        position: static;
+        width: 95vw;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px 0;
+    }
+    .exper-content {
+        width: 90vw;
+        height: auto;
+        margin: 10px 0;
+    }
+    .ex-count {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+    /* Contact section */
+    .contact {
+        flex-direction: column;
+        height: auto;
+        margin: 16px 0;
+        padding: 12px 0;
+    }
+    .contact-head {
+        font-size: 28px;
+    }
+    .contact-content {
+        width: 100%;
+        text-align: center;
+    }
+    .contact button {
+        font-size: 13px;
+        margin-top: 10px;
+        padding: 7px 18px;
+    }
+    /* Footer section */
+    .foot-panel2 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .icons {
+        width: 100%;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .author p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .myImage {
+        height: 90px;
+        width: 90px;
+    }
+    .role, .hero-tag, .contact-head {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .skill, .middleskill, .box, .exper-content {
+        width: 98vw;
+        font-size: 14px;
+    }
+    .MyIntro p, .project-info, .contact-content {
+        font-size: 13px;
+    }
+    .navbar a, .foot-panel1 a {
+        font-size: 12px;
+    }
+}
+

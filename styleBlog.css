@@ -79,3 +79,66 @@ body {
 .video-button i {
     font-size: 1.1rem;
 }
+
+/* ========== Responsive Additions (what I added) ========== */
+
+@media (max-width: 1024px) {
+    .main {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .video-box {
+        width: 48%;
+    }
+    .video-buttons {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .video-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .video-box {
+        width: 90%;
+        height: 180px;
+    }
+    .video-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+    .video-button {
+        padding: 0.7rem 1.5rem;
+        width: 80%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        width: 98%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+    .video-box {
+        width: 95%;
+        height: 160px;
+    }
+    .video-buttons {
+        width: 100%;
+        gap: 0.8rem;
+    }
+    .video-button {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+        width: 90%;
+    }
+}

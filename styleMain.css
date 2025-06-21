@@ -1,332 +1,360 @@
-*{
-    color:white;
+* {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+body {
     background-color: black;
 }
 
 /**Navbar section**/
-.navbar{
+.navbar {
     display: flex;
     justify-content: flex-end;
 }
-.navbar a{
-    margin-right:40px;
-    
+.navbar a {
+    margin-right: 40px;
 }
-.navbar a:hover{
+.navbar a:hover {
     border-top: 2px solid white;
 }
 
 /**Hero section**/
-
-
-.AboutMe{
+.AboutMe {
     display: flex;
     justify-content: space-evenly;
 }
-
-.myImage{
-    height:200px;
+.myImage {
+    height: 200px;
     width: 200px;
     border-radius: 50%;
     background-image: url('Image.png');
     background-size: cover;
-    border:2px solid white;
-    margin-top:100px;
+    border: 2px solid white;
+    margin-top: 100px;
 }
-
-
-
-.MyIntro p{
-    width:400px;
+.MyIntro p {
+    width: 400px;
 }
-
-.MyIntro button{
+.MyIntro button {
     background-color: red;
     font-size: 20px;
-    
 }
-.MyIntro button:hover{
-    border:2px solid white;
+.MyIntro button:hover {
+    border: 2px solid white;
 }
-
-
-.name{
-    color:red;
+.name {
+    color: red;
     font-weight: bolder;
 }
-.role{
-    font-size:60px;
+.role {
+    font-size: 60px;
     font-weight: bolder;
 }
-
-.hero-background{
+.hero-background {
     background-color: #232323;
-    height:850px;
-    width:50%;
-    z-index:-1;
-    position:absolute;
+    height: 850px;
+    width: 50%;
+    z-index: -1;
+    position: absolute;
     display: flex;
     align-items: end;
     justify-content: center;
-    
 }
-.hero-tag{
-    color:red;
+.hero-tag {
+    color: red;
     font-weight: bolder;
     font-size: 50px;
-    margin-bottom:200px;
+    margin-bottom: 200px;
 }
 
-.skills{
+/**Skills section**/
+.skills {
     display: flex;
     justify-content: center;
 }
-
-.skill{
-    height:300px;
-    width:300px;
+.skill {
+    height: 300px;
+    width: 300px;
     background-color: #1a1a1a;
-    margin-right:15px;
-
+    margin-right: 15px;
 }
-.middleskill{
+.middleskill {
     height: 300px;
     width: 300px;
     background-color: red;
-    margin-right:15px;
+    margin-right: 15px;
 }
-
-
-.skill p{
+.skill p {
     font-size: 12px;
-    margin-left:30px;
-    margin-top:30px;
-    margin-right:30px;
-    color:#E0E0E0;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: #E0E0E0;
 }
-
-.skillhead{
-    font-weight:700;
-    font-size:30px;
-    margin-left:30px;
-    margin-top:30px;
+.skillhead {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
-
-.skill i{
-    margin-top:40px;
-    margin-left:40px;
-    height:10%;
-    width:10%;
+.skill i {
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 10%;
+    width: 10%;
     font-size: 2rem;
 }
-.KnowMore{
+.KnowMore {
     display: flex;
 }
-.KnowMore a{
+.KnowMore a {
     font-size: 13px;
-    font-weight:500px;
-    color:red;
-    margin-left:30px;    
-    margin-top:50px;
+    font-weight: 500px;
+    color: red;
+    margin-left: 30px;
+    margin-top: 50px;
 }
-.KnowMore i{
-    margin-top:50px;
-    font-size:15px;
-    margin-left:10px;
+.KnowMore i {
+    margin-top: 50px;
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 /**Experience section**/
-
-.experience{
-    height:350px;
-    width:700px;
-    position:absolute; 
-    right:30px;
-    display:flex;
+.experience {
+    height: 350px;
+    width: 700px;
+    position: absolute;
+    right: 30px;
+    display: flex;
     flex-wrap: wrap;
 }
-
-.exper-content{
-    width:300px;
-    height:150px;
+.exper-content {
+    width: 300px;
+    height: 150px;
     background-color: #1a1a1a;
     border: 1px solid black;
-    margin:15px;
+    margin: 15px;
 }
-.ex-count{
+.ex-count {
     font-size: 50px;
-    color:red;
+    color: red;
     text-align: center;
-    margin:20px;
+    margin: 20px;
     font-weight: bold;
 }
-
-.exper-content p{
+.exper-content p {
     color: #E0E0E0;
     font-size: 15px;
     text-align: center;
 }
 
 /**Featuring projects**/
-
-.projects{
+.projects {
     display: flex;
-    height:60px;
+    height: 60px;
 }
-
-.projects-head{
-    margin-left:40px;
-    width:85%;
-    
+.projects-head {
+    margin-left: 40px;
+    width: 85%;
 }
-
-.title{
+.title {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
 }
-
-.projects button{
+.projects button {
     font-size: 15px;
-    margin-top:15px;
+    margin-top: 15px;
     background-color: red;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-
-.projects button:hover{
-    border:2px solid white; 
+.projects button:hover {
+    border: 2px solid white;
 }
 
 /**Projects content**/
-
-.markproject{
-    height:300px;
+.markproject {
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.markproject .box{
+.markproject .box {
     background-color: #1a1a1a;
 }
-.project-info{
-    width:50%;
+.project-info {
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
-.project-info p{
-    color:#E0E0E0;
-
+.project-info p {
+    color: #E0E0E0;
 }
-.project-info-head{
+.project-info-head {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-
-.projects-content{
+.projects-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.projects-content p{
-    color:#E0E0E0
+.projects-content p {
+    color: #E0E0E0;
 }
-
-
-.box{
-    height:300px;
-    width:500px;
+.box {
+    height: 300px;
+    width: 500px;
     background-color: #1a1a1a;
-    margin:60px;
+    margin: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.box:hover{
-    border:2px solid white;
+.box:hover {
+    border: 2px solid white;
 }
-
-.box-image{
+.box-image {
     background-size: cover;
-    height:70%;
-    width:80%;
+    height: 70%;
+    width: 80%;
 }
 
 /**Contact section**/
-
-.contact{
+.contact {
     display: flex;
-    margin:30px;
+    margin: 30px;
     background-color: #1a1a1a;
-    height:200px;
+    height: 200px;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.contact-head{
-    font-size:50px;
+.contact-head {
+    font-size: 50px;
     font-weight: bolder;
 }
-.contact-content{
-    width:70%;
+.contact-content {
+    width: 70%;
 }
-.contact-content p{
-    color:#E0E0E0;
+.contact-content p {
+    color: #E0E0E0;
 }
-
-.contact button{
+.contact button {
     font-size: 15px;
     background-color: red;
 }
-
-.contact button:hover{
-    border:2px solid white; 
+.contact button:hover {
+    border: 2px solid white;
 }
 
 /**Footer section**/
-.foot-panel1{
+.foot-panel1 {
     display: flex;
     justify-content: center;
 }
-.foot-panel1 a{
-    margin-right:40px;
-
+.foot-panel1 a {
+    margin-right: 40px;
 }
-.foot-panel1 a:hover{
+.foot-panel1 a:hover {
     border-top: 2px solid white;
 }
-
-.foot-panel2{
+.foot-panel2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: #1a1a1a;
-    border-top:2px solid white;
+    border-top: 2px solid white;
 }
-
-.icons{
+.icons {
     width: 50%;
-    padding-left:540px;
+    padding-left: 540px;
 }
-.icons i{
-    margin-right:20px;
-    font-size:25px;
+.icons i {
+    margin-right: 20px;
+    font-size: 25px;
 }
-
-.author{
+.author {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.author p{
-    font-size:12px;
+.author p {
+    font-size: 12px;
 }
 
+/* ========== Responsive Additions (what I added) ========== */
 
+@media (max-width: 1024px) {
+    .skills {
+        flex-wrap: wrap;
+    }
+    .skill,
+    .middleskill {
+        margin-bottom: 20px;
+        width: 45%;
+    }
+    .hero-background {
+        width: 60%;
+    }
+    .experience {
+        width: 90%;
+        right: 5%;
+        margin-top: 30px;
+    }
+    .project-info {
+        width: 40%;
+    }
+    .box {
+        width: 45%;
+        margin: 30px;
+    }
+    .icons {
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar, .foot-panel1 {
+        justify-content: center;
+    }
+    .navbar a, .foot-panel1 a {
+        margin-right: 20px;
+    }
+    .AboutMe {
+        flex-direction: column;
+        align-items: center;
+    }
+    .myImage {
+        margin-top: 30px;
+    }
+    .MyIntro p {
+        width: 80%;
+        text-align: center;
+    }
+    .MyIntro button {
+        margin: 0 auto;
+        display: block;
+    }
+    .skill, .middleskill {
+        width: 80%;
+        margin-right: 0;
+    }
+    .hero-background {
+        width: 80%;
+        height: 600px;
+    }
+    .experience {
+        position: relative;
+        width: 90%;
+        right: auto;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .projects-content, .markproject {
+        flex-direction: column;
+        align

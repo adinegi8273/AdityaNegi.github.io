@@ -15,23 +15,28 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 📸 Screenshots
 
-> Add screenshots of your homepage, skills section, and featured projects here.
+> ![image](https://github.com/user-attachments/assets/bb0a324a-f1f3-454a-9ddc-32fe5c91d48a)
+> ![image](https://github.com/user-attachments/assets/12c3c59e-8aae-47ae-aed8-d25a7e1be3cb)
+> ![image](https://github.com/user-attachments/assets/6b803ac3-e360-4004-8331-bcf80b058e38)
+>![image](https://github.com/user-attachments/assets/651ac505-4360-4a34-9248-9cbfcab5c116)
+> ![image](https://github.com/user-attachments/assets/c17ce8dd-1a0a-4ebd-afda-70ca0fbe5549)
+> ![image](https://github.com/user-attachments/assets/04f1f9a9-4d2b-45f6-a871-2e1d3a897e63)
+> ![image](https://github.com/user-attachments/assets/c72b9fbb-65e2-4436-980f-6c0f7717f49f)
 
----
+----
 
 ## 📁 Project Structure
 
+```text
 my-portfolio/
-├── index.html # Main landing page
-├── about.html # About Me page
-├── blogs.html # Blog section (optional)
-├── styleMain.css # Styling for the entire website
-├── lesson.js # JavaScript for navigation and interaction
-├── assets/ # Images and media
-└── README.md # Project documentation
+├── index.html         # Main landing page
+├── about.html         # About Me page
+├── blogs.html         # Blog section (optional)
+├── styleMain.css      # Styling for the entire website
+├── lesson.js          # JavaScript for navigation and interaction
+├── assets/            # Images and media
+└── README.md          # Project documentation
 
-
----
 
 ## 🛠️ Technologies Used
 
